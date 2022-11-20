@@ -5,9 +5,45 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    width: 100vw;
+    height: 100vh;
+    background-position: top center;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(165, 167, 183, .4), rgba(165, 167, 183, .4)), url(https://github.com/Kseniia30/images-for-project-ac-milan/blob/main/background-main.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  text-align: justify;
+  text-indent: 40px;
 }
